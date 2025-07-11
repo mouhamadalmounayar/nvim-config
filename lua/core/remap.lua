@@ -1,0 +1,12 @@
+vim.g.mapleader = " "
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]])
+vim.keymap.set("n", '<leader>t', function()
+	vim.cmd('botright split')
+	vim.cmd('terminal')
+	vim.cmd('resize 10')
+end, { desc = 'Open terminal in split' })
+vim.keymap.set("n", "<C-h>", "<C-w>h")
+vim.keymap.set("n", "<C-j>", "<C-w>j")
+vim.keymap.set("n", "<C-k>", "<C-w>k")
+vim.keymap.set("n", "<C-l>", "<C-w>l")
