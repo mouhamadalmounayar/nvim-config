@@ -1,5 +1,5 @@
 require 'nvim-treesitter.configs'.setup {
-	ensure_installed = { "markdown", "markdown_inline", "python", "javascript", "typescript", "rust" },
+	ensure_installed = { "markdown", "markdown_inline", "python", "javascript", "typescript", "rust", "yaml" },
 
 	sync_install = false,
 
