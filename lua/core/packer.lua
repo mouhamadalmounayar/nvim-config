@@ -30,4 +30,6 @@ return require('packer').startup(function(use)
 		},
 	}
 	use { 'iamcco/markdown-preview.nvim' }
+	use { "catppuccin/nvim", as = "catppuccin" }
+	use { 'stevearc/conform.nvim' }
 end)

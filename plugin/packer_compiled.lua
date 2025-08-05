@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\malmounayar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  catppuccin = {
+    loaded = true,
+    path = "C:\\Users\\malmounayar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\malmounayar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
@@ -98,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\malmounayar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["conform.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\malmounayar\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\conform.nvim",
+    url = "https://github.com/stevearc/conform.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,

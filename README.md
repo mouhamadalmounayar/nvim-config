@@ -21,4 +21,5 @@ and that's pretty much it.
 With `v0.11`, lsp can now be configured natively. Here is the list of the language servers which I setup (for now):
 
 - `lua_ls` for lua.
-- `pyright` for python.
+- `rust_analyzer` for rust.
+- `jedi` for rust.
